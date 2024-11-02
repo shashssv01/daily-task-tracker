@@ -1,3 +1,16 @@
+# Daily Task Tracker
+----------------------------------------
+* With this Web Application , Users can track their Daily tasks or routine.
+* Front end: React, react-dom, redux, css
+* Back end : firebase
+
+The specifics
+--------------------------
+* Users can create tasks/ Reminder for their particular day..
+* The tasks/Remainders consists of Name, description, time, priority(Radio), Completed button
+* If completed , added into the completed for that current date array
+* Two sections, 'Ongoing" displays the current task which are not completed and "Completed" displays the current tasks which are being completed
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
