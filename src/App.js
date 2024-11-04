@@ -1,11 +1,11 @@
 import './App.css';
-import Counter from './components/Counter/Counter'
+import NewTask from './components/NewTask/NewTask';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      Shashank
-      <Counter />
+      <NewTask />
     </div>
   );
 }

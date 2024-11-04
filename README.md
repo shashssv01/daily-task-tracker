@@ -1,7 +1,7 @@
 # Daily Task Tracker
 ----------------------------------------
 * With this Web Application , Users can track their Daily tasks or routine.
-* Front end: React, react-dom, redux, css
+* Front end: React, react-dom, bootstrap,  redux, 
 * Back end : firebase
 
 The specifics
