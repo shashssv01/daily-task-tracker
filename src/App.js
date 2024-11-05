@@ -1,11 +1,14 @@
 import './App.css';
-import NewTask from './components/NewTask/NewTask';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React, {useState} from 'react';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
+  
+
   return (
     <div className="App">
-      <NewTask />
+      <Navbar />
     </div>
   );
 }

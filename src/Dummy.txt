@@ -1,9 +1,5 @@
-import React from 'react';
-import Priority from '../PriorityButton/PriorityButton';
-
-const NewTask = () =>{
-    return (<>
-    {/* Name of the particular task*/}
+<>
+    Name of the particular task
      <div className="">
      <label for="exampleInputEmail1" className="form-label">Task Name::</label>
      <input type="text" className="task-name" id="exampleInputEmail1"  />
@@ -19,9 +15,4 @@ const NewTask = () =>{
      <div>
      <button type="button" class="btn btn-warning">Add Task </button>
      </div>
-    </>)
-}
-
-export default NewTask;
-
- // {/* */}
+    </>
