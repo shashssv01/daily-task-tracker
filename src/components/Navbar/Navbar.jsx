@@ -12,15 +12,18 @@ function Navbar(){
     const handleCloseModal = () => {
         setIsModalOpen(false);
     };
-    return(<>
+    return(<header>
         <nav className="navbar">
             <div className="navbar-logo">DAILY TASK MANAGER</div>
+            <div>
             <ul className="navbar-links">
-                <li><button type='button'className='btn btn-warning btn-lg' onClick={handleOpenModal}>Add Task +</button></li>
+                <li><button type='button'className='btn btn-warning' onClick={handleOpenModal}>Add Task +</button></li>
             </ul>
+            </div>
+            
         </nav>
         <NewTaskModal show={isModalOpen} onClose ={handleCloseModal}/>
-    </>)
+    </header>)
 }
 
 export default Navbar;

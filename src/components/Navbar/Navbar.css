@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #333;
-    padding: 10px 20px;
+    padding: 10px ;
     color: white;
 }
 
@@ -15,6 +15,8 @@
 .navbar-links {
     list-style: none;
     display: flex;
+    margin: 0px;
+    padding : 0px;
     gap: 15px;
 }
 
